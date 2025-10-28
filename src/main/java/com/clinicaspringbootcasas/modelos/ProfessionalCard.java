@@ -22,7 +22,7 @@ public class ProfessionalCard {
     private String category;
     private String associatedSpecialty;
 
-    @OneToOne(mappedBy = "professionalCard")
+    @OneToOne(mappedBy = "Doctor")
     private Doctor doctor;
 
     public ProfessionalCard() {

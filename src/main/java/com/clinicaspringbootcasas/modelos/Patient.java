@@ -20,7 +20,7 @@ GenerationType.IDENTITY)
     private String bloodType;
     private String phoneNumber;
 
-    @OneToOne(mappedBy = "patient")
+    @OneToOne(mappedBy = "ClinicalHistory")
     private ClinicalHistory clinicalHistory;
 
 
